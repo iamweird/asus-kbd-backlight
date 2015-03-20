@@ -5,6 +5,9 @@ Helper for adjusting keyboard backlight brightness in Asus Zenbook UX31A and sim
 
 Based on original sources authored by majewsky https://aur.archlinux.org/packages/asus-kbd-backlight/
 
+These files are intended to be used with Ubuntu Linux, though it may work on other systems.
+(Original script was written for Arch Linux.)
+
 Tested on ASUS N56VZ running Ubuntu 14.04.2.
 
 
@@ -22,9 +25,6 @@ sudo start asus-kbd-backlight
 
 Usage
 -----
-
-This sources are intended to be used with Ubuntu Linux, though it may work on other systems.
-(Original script was written for Arch Linux.)
 
 This repo contains bash script `asus-kbd-backlight` to control keyboard backlight state
 and also an Upstart script `asus-kbd-backlight.conf` to allow regular users to do it.
