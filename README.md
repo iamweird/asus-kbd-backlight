@@ -8,6 +8,18 @@ Based on original sources authored by majewsky https://aur.archlinux.org/package
 Tested on ASUS N56VZ running Ubuntu 14.04.2.
 
 
+Installation
+------------
+
+```
+git clone https://github.com/iamweird/asus-kbd-backlight.git
+cd asus-kbd-backlight
+sudo cp asus-kbd-backlight /usr/bin/
+sudo cp asus-kbd-backlight.conf /etc/init/
+sudo start asus-kbd-backlight
+```
+
+
 Usage
 -----
 
